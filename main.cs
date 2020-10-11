@@ -16,7 +16,7 @@ class MainClass {
 
         // Randomly pick a quote (line from the file)
         Random random = new Random();
-        string line = quotesFile[random.Next(quotesFile.Length)];
+        string line = quotesFile[random.Next(quotesFile.Length - 1)];
 
         // Split the line into the quote and author.
         string[] lineSplit = line.Split("\", \"");
