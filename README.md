@@ -17,6 +17,9 @@ add more quotes (line 19 of [main.cs](https://github.com/CyanCoding/Motivational
 formats. The longest being 232 characters. If this is an issue for your program, you
 can implement a function that re-picks a quote until it finds one of your suitable size.
 Most quotes in this list are less than 150 characters.
+- There are some quotes that use the quotation character, ". These obviously are escaped (aka they have a backslash)
+so you should be fine but you might want to be careful of these if they will interfere with
+your text formatting in any way.
 
 ## Credit
 The original list of quotes and basis of this program was inspired by
